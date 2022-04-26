@@ -1,0 +1,40 @@
+* {
+  margin:0;
+  padding: 0; 
+  box-sizing: border-box
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 90%;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+body{
+  background-color: rgb(214, 163, 23);
+  font: 400 3rem 'DM Sans' 'sans-serif';
+
+}
+
+#header{
+ color: rgb(84, 235, 14)
+}
+
+header{
+  
+}
