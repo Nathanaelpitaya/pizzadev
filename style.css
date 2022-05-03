@@ -13,6 +13,9 @@
 nav{
   display:flex;
   justify-content: space-between;
+  align-items: center;
+
+  height: 4.5rem;
 }
 
 img{
@@ -25,16 +28,69 @@ a{
 }
 
 
-body{
-  background-color: rgb(214, 163, 23);
-  font: 400 3rem 'DM Sans' 'sans-serif';
+body {
+  font: 400 1rem 'DM Sans', 'sans-serif';
+  color: var(--text-color);
+  background: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo h1{
+  font: 700 3rem 'Poppins' , 'sans-serif';
+  color: var(--title-color);
+}
+
+.logo span{
+  color: var(--base-color);
+}
+
+
+h1{
+  font: 700 1rem 'Poppins' , 'sans-serif';
+  color: var(--title-color);
+}
+
+/* cria página */
+section{
+  padding: 1.5rem 0;
+}
+.grid{
+  display:grid;
+  gap: 2rem;
+}
+
+.home .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
 
 }
+
+#home .imagem {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 
 #header{
  color: rgb(84, 235, 14)
 }
 
-header{
+
+/*declarando variavel, sua impotancia é para, tem que ter nomes */
+:root{
+
+    --header-height: 4.5rem;
   
-}
+    /* colors */
+    --hue: 159;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 36% 57%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: rgb(255, 255, 255);
+  }
+  
