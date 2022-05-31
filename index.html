@@ -37,7 +37,11 @@ a = botão
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
   </head>
 
   <body>
@@ -45,19 +49,29 @@ a = botão
     <header id="header">
     <nav class="container">
         <a class="logo" href="#"><h1>Pizza <span>Dev</span></h1></a>
-    
-        <div><h1>. . .</h1></div>
+        <div class= "menu"><ul class="grid">
+          
+          <li><a href="#home" class= "title">Início</a></li>
+          <li><a href="#about" class= "title">Sobre</a></li>
+          <li><a href="#services"class= "title">Serviços</a></li>
+          <li><a href="#contact" class= "title">Contatos</a></li>
+          <li><a href="#dev" class= "title">desenvolvedor</a></li>
+        </ul></div>
+        <div class= "open"></div>
+        <div class= "close"></div>
       </nav>
     </header>
     <main>
       <!-- página1 -->
 
-      <!-- new folder,  baixa a imagem e arrasta para la, dps pega o img/... onde ela esta-->
-      <section class = "home">
+      <!-- new folder,  baixa a imagem e arrasta para la, dps pega o img/... onde ela esta,
+
+         ul>li*4 = cria llista de 4 coisas-->
+      <section id = "home">
       <div class="container grid">
 
         <div class="imagem">
-          <img src="img/imagem.avif"
+          <img width="0.2" , height= "0.2" src="img/imagem.avif"
         />
       </div>
 
@@ -66,35 +80,60 @@ a = botão
       <p>Temos pizzas de vários sabores</p>
       <a href="#" class="button">conheça nosso cardápio</a>
     </div>
-    
+
     </div>
 
   </section>
+  <div class="divider"></div>
       <!-- página2 -->
 
     <!-- cria página -->
-      <section>
+      <section id = "about">
         <div class="container">
 
         </div>
       </section>
-
+      <div class="divider"></div>
       <!-- página3 -->
-      <section>
+      <section id = "services">
         <div class="container">
 
         </div>
       </section>
-
+      <div class="divider"></div>
       <!-- página4 -->
-      <section>
+      <section id = "contact">
         <div class="container">
 
         </div>
       </section>
-
+      <div class="divider"></div>
       <!-- quinta página "prova"-->
 
+
+      <section id = "dev">
+        
+        <div class="container grid">
+          <div class="divider"></div>
+
+  
+        <div class="texto">
+        <h1 class= "logo">Nathanael Rodrigues de <span>Oliveira </span></h1>
+
+        <div class="imagem">
+          <img src="https://suap.ifsuldeminas.edu.br/media/alunos/150x200/26456.34YV9m6b62qy.jpg"
+        />
+      </div>
+        <p>Sou Nathanael Rodrigues de Oliveira, tenho 17 anos, natural do Brasil, estudandte do IF sul de minas, gosto de programar, ler e me exercitar.
+        </p>
+        <p>Resumo da matéria, a tag &lt;a&gt; criar links, &lt;p&gt; criar caixas de texto, &lt;nav&gt;serve para modificar partes especificas do código sem modificar o visual e por final &lt;span&gt;modificar parte especifica do texto.</code></p>
+        <a href="https://steamcommunity.com/profiles/76561198408302077/" class="button">minha rede social steamcommunity</a>
+      </div>
+      
+      </div>
+  
+    </section>
+    <div class="divider"></div>
 
     </main>
 
@@ -103,3 +142,4 @@ a = botão
     </footer>
   </body>
 </html>
+
