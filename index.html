@@ -4,28 +4,7 @@
 <!-- Ctrl + / = comentário 
 
 section = página
-a = botão
-
-
-      <section class = "dev">
-      <div class="container grid">
-
-        <div class="imagem">
-          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" = imagem minha
-        />
-      </div>
-      
-      <div class="texto">
-      <h1>Venha conhecer a melhor Pizza da cidade</h1> = descrever
-      <p>Temos pizzas de vários sabores</p> = descrever 
-      <a href="#">conheça nosso cardápio</a> = link
-    </div>
-    
-    </div>
-
-  </section> == prova
-
--->
+a = botão -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,6 +19,8 @@ a = botão
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<link href="assets/style.css" rel="stylesheet">
 
 
   </head>
@@ -57,8 +38,8 @@ a = botão
           <li><a href="#contact" class= "title">Contatos</a></li>
           <li><a href="#dev" class= "title">desenvolvedor</a></li>
         </ul></div>
-        <div class= "open"></div>
-        <div class= "close"></div>
+        <div class= "toggle icon-menu"></div>
+        <div class= "toggle icon-close"></div>
       </nav>
     </header>
     <main>
@@ -89,14 +70,49 @@ a = botão
 
     <!-- cria página -->
       <section id = "about">
-        <div class="container">
+        <div class="container grid">
+          <div class="imagem">
+            <img class="img1" width="0.2" , height= "0.2" src="https://media.istockphoto.com/photos/waiter-serving-pizza-to-a-group-of-friends-picture-id1389670192?k=20&m=1389670192&s=612x612&w=0&h=uxH9OogmcWXYJUvwJmJT-p9UxnYuS2ZewqS_8arNXQo="
+          />
+        </div>
 
+        <div class="texto">
+        <h1 class= "h1">Sobre nós</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus. 
+
+          In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed. 
+          
+          Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.</p>
         </div>
       </section>
       <div class="divider"></div>
+
       <!-- página3 -->
       <section id = "services">
-        <div class="container">
+        <div class="container grid">
+
+          <div class="card grid">
+          <h2 class= "h1">Serviços</h2> 
+          <i class = "icon-pizza-box"></i>
+          <h3 class ="title1"> Embalagem Resistente</h3>
+          <p>Conheça nossas embalagens resistentes</p>
+          </div>
+
+
+          <div class="card grid">
+          <i class = "icon-pizza-delivery"></i>
+          <h3 class ="title1"> entrega premium</h3>
+          <p>A nossa equipe é repleta de profissionais treinados que irão proporcionar a melhor experiência na entrega da sua pizza./p>
+          </div>
+
+
+          <div class="card grid">
+            <i class = "icon-pizza-flavors"></i>
+            <h3 class ="title1"> Sabores</h3>
+            <p>O Pizza DEV tem um cardápio repleto de sabores. Você pode montar a pizza com até quatro sabores diferentes.</p>
+            </div>
+
+
 
         </div>
       </section>
@@ -121,7 +137,7 @@ a = botão
         <h1 class= "logo">Nathanael Rodrigues de <span>Oliveira </span></h1>
 
         <div class="imagem">
-          <img src="https://suap.ifsuldeminas.edu.br/media/alunos/150x200/26456.34YV9m6b62qy.jpg"
+          <img class="img1" width="0.2" , height= "0.2" src="https://suap.ifsuldeminas.edu.br/media/alunos/150x200/26456.34YV9m6b62qy.jpg"
         />
       </div>
         <p>Sou Nathanael Rodrigues de Oliveira, tenho 17 anos, natural do Brasil, estudandte do IF sul de minas, gosto de programar, ler e me exercitar.
@@ -140,6 +156,8 @@ a = botão
     <footer>
       
     </footer>
+
+    <script src="main.js"></script>
+    
   </body>
 </html>
-

@@ -22,13 +22,26 @@ nav.show ul.grid{
   gap: 4rem;
 }
 
+h1{
+  font: 700 2rem 'Poppins' , 'sans-serif';
+  color: black;
+}
+
+h2{
+  font: 700 2rem 'Poppins' , 'sans-serif';
+  color: black;
+}
 nav.show .menu{ 
   display: grid;
   place-content: center;
 }
 
 img{
-  width: 100%;
+  width: 90%;
+  height: auto;
+}
+.img1{
+  width: 50%;
   height: auto;
 }
 
@@ -45,8 +58,8 @@ body {
 }
 
 .logo h1{
-  font: 700 2rem 'Poppins' , 'sans-serif';
-  color: var(--title-color);
+  font: 750 3rem 'Poppins' , 'sans-serif';
+  color: black;
 }
 
 .logo span{
@@ -77,6 +90,11 @@ section{
   font: 700 1.5, 'Dancing Script';
 }
 
+#home .imagem {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem
+}
+
 #home .texto {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -92,14 +110,44 @@ section{
   margin-bottom: 1rem;
 }
 
+#about .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+
+}
+
+#about .texto h1{
+  margin-bottom: 1rem;
+}
+
+#about .texto p{
+  margin-bottom: 1rem;
+}
 
 
-.dev .imagem {
+#services .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+
+}
+
+#services .texto h1{
+  margin-bottom: 1rem;
+}
+
+#services .texto p{
+  margin-bottom: 1rem;
+}
+
+
+#dev .imagem {
   margin-left: 2.5rem;
   margin-right: 2.5rem
 }
 
-.dev .texto {
+#dev .texto {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
@@ -107,12 +155,12 @@ section{
 }
 
 
-.dev .texto h1{
+#dev .texto h1{
   margin-bottom: 1rem;
   font: 400 2.5rem 'dancing script';
 }
 
-.dev .texto p{
+#dev .texto p{
   margin-bottom: 1rem;
   font: 700 1.5rem 'Poppins' , 'sans-serif';
 }
@@ -143,6 +191,27 @@ section{
 nav .menu{
   opacity: 0;
   visibility: hidden;
+}
+
+nav .icon-close {
+  visibility: hidden;
+  opacity: 0;
+  
+  position: absolute;
+  right: 1.5rem;
+  
+}
+
+.toggle {
+  font-size: 1.5rem;
+  color: var(--base-color); 
+  cursor: pointer; 
+    
+ } 
+
+nav.show div.icon-close {
+  visibility: visible;
+  opacity: 1;
 }
 
 nav ul li{
@@ -197,7 +266,25 @@ nav.show .menu{
 #header{
  color: rgb(84, 235, 14)
 }
+ .justify-text{
+   text-align: justify;
 
+ }
+
+ .card{
+   padding: 3.625rem 2rem;
+   box-shadow: var(--base-color);
+   border-bottom: .25rem solid var(--base-color);
+   border-radius: .25rem .25rem 0 0;
+   text-align: center;
+ }
+
+ .card i {
+   display: block;
+   margin-bottom: 1.5rem;
+   font-size: 5rem;
+   color: var(--base-color);
+ }
 
 /*declarando variavel, sua impotancia é para, tem que ter nomes */
 :root{
